@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   CREATE DATABASE IF NOT EXISTS SpotifyClone;
 
   CREATE TABLE SpotifyClone.tabela1(
-      coluna1 tipo restricoes,
+      coluna1 tipo restricoes1,
       coluna2 tipo restricoes,
       colunaN tipo restricoes,
   ) engine = InnoDB;
