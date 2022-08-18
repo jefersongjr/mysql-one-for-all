@@ -129,19 +129,19 @@ INSERT INTO SpotifyClone.history (user_id, track_id, reproduction_date)
     (9, 9, '2022-02-24 21:14:22'),
     (10, 3, '2015-12-13 08:30:22');
     
-    INSERT INTO SpotifyClone.followed_artists (user_id, artist_id)
+  INSERT INTO SpotifyClone.followed_artists (user_id, artist_id)
   VALUES
     (1, 1),
-	(1, 2),
+	  (1, 2),
     (1, 3),
     (2, 1),
     (2, 3),
-	(3, 2),
+	  (3, 2),
     (4, 4),
     (5, 5),
     (5, 6),
-	(6, 6),
+	  (6, 6),
     (6, 1),
     (7, 6),
-	(8, NULL);
-    
+	  (9, 3),
+    (10, 2);
