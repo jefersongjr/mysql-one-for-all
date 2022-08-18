@@ -89,13 +89,13 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('BREAK MY SOUL', 279, 1, 1),
     ('VIRGO’S GROOVE', 369, 1, 1),
     ('ALIEN SUPERSTAR', 116, 1, 1),
-    ('Don’t Stop Me Now', 203, 2, 1),
-    ('Under Pressure', 152, 2, 2),
-    ('Como Nossos Pais', 105, 3, 1),
-    ('O Medo de Amar é o Medo de Ser Livre', 207, 3, 2),
-    ('Samba em Paris', 267, 4, 1),
-    ('The Bard’s Song', 244, 5, 1),
-    ('I Put A Spell On You', 100, 6, 1);
+    ('Don’t Stop Me Now', 203, 2, 2),
+    ('Under Pressure', 152, 2, 3),
+    ('Como Nossos Pais', 105, 3, 4),
+    ('O Medo de Amar é o Medo de Ser Livre', 207, 3, 5),
+    ('Samba em Paris', 267, 4, 6),
+    ('The Bard’s Song', 244, 5, 7),
+    ('I Put A Spell On You', 100, 6, 8);
 
 INSERT INTO SpotifyClone.users (user_name, age, plan_id,  subscribe_date)
   VALUES
