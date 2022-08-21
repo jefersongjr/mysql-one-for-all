@@ -95,7 +95,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('O Medo de Amar é o Medo de Ser Livre', 207, 3, 5),
     ('Samba em Paris', 267, 4, 6),
     ('The Bard’s Song', 244, 5, 7),
-    ('I Put A Spell On You', 100, 6, 8);
+    ('Feeling Good', 100, 6, 8);
 
 INSERT INTO SpotifyClone.users (user_name, age, plan_id,  subscribe_date)
   VALUES
